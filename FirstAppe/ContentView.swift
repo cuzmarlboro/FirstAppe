@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    // 其实 body 就是一个计算属性，每次都会重新渲染
     var body: some View {
         /// 垂直布局，默认交叉轴居中对齐
         VStack{
@@ -122,5 +123,6 @@ struct ContentView: View {
 }
 
 #Preview {
+    // 这里其实就是创建了一个 ContentView 的实例，不用传值的原因就是 ContentView 这个结构体没有普通属性
     ContentView()
 }
