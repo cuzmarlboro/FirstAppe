@@ -12,6 +12,7 @@
 		D17207672DB673B000CBC35D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17207662DB673B000CBC35D /* Assets.xcassets */; };
 		D172076A2DB673B000CBC35D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17207692DB673B000CBC35D /* Preview Assets.xcassets */; };
 		D1B163BC2DB6890200DB50A4 /* ViewModifierDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B163BB2DB6890200DB50A4 /* ViewModifierDemo.swift */; };
+		D1B163C02DB6A00800DB50A4 /* ButtonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B163BF2DB6A00800DB50A4 /* ButtonDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D17207662DB673B000CBC35D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D17207692DB673B000CBC35D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1B163BB2DB6890200DB50A4 /* ViewModifierDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierDemo.swift; sourceTree = "<group>"; };
+		D1B163BF2DB6A00800DB50A4 /* ButtonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				D17207622DB673AE00CBC35D /* FirstAppeApp.swift */,
 				D17207642DB673AE00CBC35D /* ContentView.swift */,
 				D1B163BB2DB6890200DB50A4 /* ViewModifierDemo.swift */,
+				D1B163BF2DB6A00800DB50A4 /* ButtonDemo.swift */,
 				D17207662DB673B000CBC35D /* Assets.xcassets */,
 				D17207682DB673B000CBC35D /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1B163C02DB6A00800DB50A4 /* ButtonDemo.swift in Sources */,
 				D17207652DB673AE00CBC35D /* ContentView.swift in Sources */,
 				D17207632DB673AE00CBC35D /* FirstAppeApp.swift in Sources */,
 				D1B163BC2DB6890200DB50A4 /* ViewModifierDemo.swift in Sources */,
